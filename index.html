@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section id="body-of-the-page">
+        <nav id="nav">
+            <a href="#" class="toggle-button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="">Accueil</a></li>
+                <li><a href="">Rechercher</a></li>
+                <li><a href="">A propos</a></li>
+                <li><button id="connexion">Se connecter</button></li>
+                <li><button id="inscription">S'inscrire</button></li>
+            </ul>
+        </nav>
+        <header>
+            <img id="logo" src="assets/logo.png" alt="Logo de l'association">
+            <h1>Actutu <br> <em>Toute l'actualité du livre</em></h1>
+            <input type="search" name="barre de recherche" id="search-bar" placeholder="Rechercher un livre">
+            <button>Go</button>
+        </header>
+
+        <h2><img src="assets/sari-kuçuk-kitab.png" alt="">Recommandations</h2>       
+
+        <section id="Recommandations">    
+            
+            <section class="carte">
+
+                <!--
+                <div class="carte-item">
+                    
+                    <div class="item-image">ooooohhhhhh</div>
+                    <div class="item-title">HP1</div>
+                    <div class="item-author">JKR</div>
+                    <div class="item-summary">Il était une fois</div>
+                
+                </div>
+                -->
+
+            </section>
+
+        </section>
+
+        <h2><img src="assets/mavi-kuçuk-kitab.png" alt="">Les livres à moins de <em>20€</em></h2>
+        
+        <section id="moins-20euros">
+            
+            <section class="carte-Longue">
+
+                <!--
+                <div class="carte-longue-item">
+                    
+                    <div class="item-image">ooooohhhhhh</div>
+                    <div class="item-title">HP1</div>
+                    <div class="item-author">JKR</div>
+                    <div class="item-summary">Il était une fois</div>
+                    <div class="price">22</div>
+        
+                </div>
+               -->
+        
+            </section>
+            
+        </section>
+
+
+        <footer>
+            <p><img src="assets/logo-blanco.png" alt="Logo de l'association"> Toute les ressources du site</p>
+            
+            <div id="container">
+                <ul>
+                        <li><a href="">Page d'accueil</a></li>
+                        <li><a href="">Livres papier</a></li>
+                        <li><a href="">Ebooks / Epubs</a></li>
+                        <li><a href="">Livres audio</a></li>
+                        <li></li>
+                </ul>
+
+                <ul>
+                        <li><a href="">Policier</a></li>
+                        <li><a href="">Science Fiction</a></li>
+                        <li><a href="">Frisson</a></li>
+                        <li><a href="">Médiéval</a></li>
+                        <li><a href=""> > Toutes les catégories</a></li>
+                </ul>
+
+                <ul>
+                        <li><a href="">Promotions</a></li>
+                        <li><a href="">Livres à paraître prochainement</a></li>            
+                        <li><a href="">Meilleures ventes</a></li>           
+                        <li><a href="">Incontournables</a>
+                        <li><a href=""> > Tous les bons plans</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </section>
+<script>
+
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navLinks = document.getElementsByClassName('nav-links')[0] 
+
+    toggleButton.addEventListener('click', () => {
+        navLinks.classList.toggle('active')
+    })
+
+</script>
+<script src="js/etape4.js"></script>
+
+<script src="js/etape3.js"></script>
+
+</body>
+</html>
